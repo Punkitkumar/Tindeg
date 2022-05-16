@@ -1,0 +1,145 @@
+body {
+  font-family: "Montserrat-white";
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+/* section */
+.colored-section {
+  color: #fff;
+  background-color: #ff4c68;
+}
+.white-section {
+  background-color: #fff;
+}
+/* .Download buttion */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* .feature-section */
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 5%;
+}
+i {
+  size: 50%;
+}
+.icon {
+  color: #ef8172;
+  /* padding: 7% 0; */
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* .Testimonial */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.Testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 25px;
+}
+.Testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+.Press-logo {
+  width: 15%;
+  margin: 20px 00px 50px;
+}
+#pricing {
+  padding: 100px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.fixed-top {
+  background-color: #ff4c68;
+  padding: 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  margin: 5px;
+}
+.Social-Icon {
+  /* padding: 2% 2% 2% 2%; */
+  margin: 1.5px 1.5px 1.5px 1.5px;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    transform: rotate(0);
+  }
+}
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.4rem;
+  line-height: 1.5;
+}
